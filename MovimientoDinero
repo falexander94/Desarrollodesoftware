@@ -1,7 +1,9 @@
+
 package gestionempresa;
 
+
 public class MovimientoDinero {
-    int Monto;
+     int Monto;
     String concepto, usuario;
 
     public MovimientoDinero(int Monto, String concepto, String usuario) {

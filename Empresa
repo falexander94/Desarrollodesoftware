@@ -1,7 +1,8 @@
 package gestionempresa;
 
+
 public class Empresa {
-   private String nombre, direccion;
+    private String nombre, direccion;
    private int telefono, nit;
 
     public Empresa(String nombre, String direccion, int telefono, int nit) {
@@ -41,6 +42,6 @@ public class Empresa {
 
     public void setNit(int nit) {
         this.nit = nit;
-    }
     
+}
 }

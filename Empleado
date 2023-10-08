@@ -1,8 +1,12 @@
+
+package gestionempresa;
+
+
 public class Empleado {
-    String nombre, correo, empresa, rol;
+     String nombre, correo, empresa, rol;
 
 
-    
+
     public Empleado(String nombre, String correo, String empresa, String rol) {
         this.nombre = nombre;
         this.correo = correo;
